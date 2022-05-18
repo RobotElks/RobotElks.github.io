@@ -1,59 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../TemplateData/style.css">
-    <title>Team Elks</title>
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <nav class = "navbar">
-            <h1>Team Elks</h1>
-            <div style="flex-grow: 1"></div>
-            <ul class="navbar-list">
-                <li>
-                    <a href="">About</a>
-                </li>
-                <li>
-                    <a href="">Sprints</a>
-                </li>
-                <li>
-                    <a href="">Project</a>
-                </li>
-                <li>
-                    <a href="">Någonting kanske</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-      <div class="introduction">
-        <div class="intro-text github">
-            <h2> Welcome to Team Elks website!</h2>
-            <p> 
-                We are team elks from the kth course II1305. Our project is a multiplayer game 
-                made in unity mainly inspired by the board game robot rally.
-            </p>
-            <a href="https://www.github.com/robotelks" class="github-link" href title="Github">
-              Github
-              <i class="fab fa-github"></i>
-            </a>
-        </div>
-        <div class="intro-icon">
-          <figure>
-            <img src="TemplateData/deer.png" alt="Picture of an Elk!">
-          </figure>
-        </div>
-      </div>
-      <div>
-          <h3> Sprint 1</h3>
-          <h3> Sprint 2</h3>
-          <h3> Sprint 3</h3>
-          <h3> Sprint 4</h3>
-      </div>
-    </main>
-</body>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale 1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../TemplateData/style.css">
+        <title>Team Elks</title>
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section id="about">
+            <nav>
+                <div class="logo">Team Elks</div>
+                <ul class="navbar">
+                    <li>
+                        <a href="#Sprint" class="
+                        nav-link
+                        link-hover
+                        link-hover-black
+                        ">Sprint</a>
+                    </li>
+                    <li>
+                        <a href="" class="
+                        nav-link
+                        link-hover
+                        link-hover-black
+                        ">Project</a>
+                    </li>
+                    <li>
+                        <a href="" class="
+                        nav-link
+                        nav-link-primary
+                        ">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="wrapper">
+                <div class="about-me row">
+                    <div class="about-me-container">
+                        <figure class="picture-mask">
+                            <img src="../TemplateData/deer.png" class="picture" alt="Picture of an Elk!">
+                        </figure>
+                        <h1 class="about-me-title">
+                            Welcome to <span class="text-purple">Team Elk's</span> website!
+                        </h1>
+                        <p class="about-me-para">
+                            We are a project group from the KTH course II1305. Our project is to create a 
+                            <strong class="text-purple"> 3D multiplayer video game </strong> using unity based on the boardgame
+                            roborally. The game has several phases in which the player first programmes their robot and then moves 
+                            during the execution phase. The main goal is to be the first to acquire 3 flags. 
+                        </p>
+                        <div class="about-me-links">
+                            <a href="https://www.github.com/milleafrolen" class="
+                            about-me-link
+                            link-hover
+                            link-hover-black">
+                                Github
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <figure class="about-me-img-container">
+                        <img src="./assets/undraw_ukraine.svg" class="about-me-img" alt="">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="sprint">
+            <div class="container">
+                <div class="row">
+                    <h1 class="sprint-title"><span class="text-purple">Sprints</span></h1>
+                    <div class="sprint-list">
+                        <div class="sprint">
+                            Sprint 1
+                        </div>
+                        <div class="sprint">
+                            Sprint 2
+                        </div>
+                        <div class="sprint">
+                            Sprint 3
+                        </div>
+                        <div class="sprint">
+                            Sprint 4
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="row">
+                    <h1 class="section-title"> Here are some of my <span class="text-purple">projects!</span></h1>
+                    <ul class="project-list">
+                        <li class="project">
+                            <div class="project-wrapper">
+                                <img src="assets/undraw_nakamoto.svg" class="project-img" alt="Project 1">
+                                <div class="project-description">
+                                    <h3 class="project-description-title"></h3>
+                                    <h4 class="project-description-sub-title">
+                                        PostgreSQL, Java
+                                    </h4>
+                                    <p class="project-description-para">
+                                        Database created for KTH course IV1351 Data Storage Paradigms
+                                    </p>
+                                    <div class="project-description-links">
+                                        <a href="https://github.com/MilleAfRolen/IV1351" class="project-description-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="project">
+                            <div class="project-wrapper">
+                                <img src="assets/undraw_connected_world.svg" class="project-img" alt="Project 1">
+                                <div class="project-description">
+                                    <h3 class="project-description-title"></h3>
+                                    <h4 class="project-description-sub-title">
+                                        Java
+                                    </h4>
+                                    <p class="project-description-para">
+                                        Created different servers in java for the KTH course IK1203 Network and communications
+                                    </p>
+                                    <div class="project-description-links">
+                                        <a href="https://github.com/MilleAfRolen/IK1203" class="project-description-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <!--<a href="www.mywebsite.com" class="project-description-link">
+                                            <i class="fas fa-link"></i>
+                                        </a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="project">
+                            <div class="project-wrapper">
+                                <img src="assets/undraw_programming.svg" class="project-img" alt="Project 1">
+                                <div class="project-description">
+                                    <h3 class="project-description-title"></h3>
+                                    <h4 class="project-description-sub-title">
+                                        Elixir
+                                    </h4>
+                                    <p class="project-description-para">
+                                        Different assignments solved for the KTH course ID1019 Programming 2
+                                    </p>
+                                    <div class="project-description-links">
+                                        <a href="https://github.com/MilleAfRolen/ID1019---Programming-2" class="project-description-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <!--<a href="www.mywebsite.com" class="project-description-link">
+                                            <i class="fas fa-link"></i>
+                                        </a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="row footer-row">
+                <a href="#" class="footer-anchor">
+                    <figure class="footer-logo">
+                        <img src="assets/abstraction.jpg" class="footer-logo-image" alt="sus">
+                    </figure>
+                    <span class="footer-logo-popper">
+                        Top <i class="fas fa-arrow-up"></i>
+                    </span>
+                </a>
+                <div class="footer-social-list">
+                    <a href="" class="
+                    footer-social-link
+                    link-hover-effect
+                    link-hover-effect-white
+                    " target="_blank">Github</a>
+                    <a href="" class="
+                    footer-social-link
+                    link-hover-effect
+                    link-hover-effect-white
+                    " target="_blank">LinkedIn</a>
+                    <a href="mailto:mille.af.rolen@gmail.com" class="
+                    footer-social-link
+                    link-hover-effect
+                    link-hover-effect-white
+                    " target="_blank">Email</a>
+                    <a href="mailto:mille.af.rolen@gmail.com" class="
+                    footer-social-link
+                    link-hover-effect
+                    link-hover-effect-white
+                    " target="_blank">Resume</a>
+                </div>
+                <div class="footer-copyright">E-portfolio inspired by David Braggs</div>
+            </div>
+        </footer>
+    </body>
 </html>
